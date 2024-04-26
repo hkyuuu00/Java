@@ -4,7 +4,7 @@ package com.example.study;
 class Calculator {
 	int left ,right;
 	//static은 클래스에서 공유되는 변수나 메서드를 정의, 클래스 변수 생성
-	//base를 0으로 세팅
+	//base를 0으로 세팅, 클래서 전역에서 사용
 	static int base = 0;
 	
 	public void setOprands(int left, int right) {
